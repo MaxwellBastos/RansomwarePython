@@ -1,5 +1,9 @@
 import os
 import pyaes
+from time import sleep
+sleep(1)
+print('Iniciando processo de criptografia...')
+sleep(2)
 
 fileName = 'olhospy.jpg'
 file = open(fileName, 'rb')
